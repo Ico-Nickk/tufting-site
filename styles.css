@@ -14,14 +14,15 @@ header {
     color: #f9faf8;
     padding: 5px 10px
 }
-
+header .wrapper {
+    display: flex;
+}
 .logo {
     font-size: 24px;
 }
 
 .header-links {
     flex-grow: 1;
-    align-items: center;
 }
 
 .header-links ul {
@@ -43,11 +44,38 @@ header {
 .hero-page {
     background-color: #1f2937;
     color: #f9faf8;
+    height: 450px;
 }
-.wrapper.hero-page {
+
+.hero-page .wrapper {
     display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
 }
 
 .hero-info h1 {
-    margin-top: 0;
+    margin: 0;
+    font-size: 48px;
+}
+
+.hero-info p, button {
+    font-size: 18px;
+}
+
+.hero-info button {
+    border-radius: 12px;
+    padding: 3px 20px;
+}
+
+.hero-image {
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
