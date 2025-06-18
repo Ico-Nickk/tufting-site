@@ -79,3 +79,13 @@ header .wrapper {
     width: 100%;
     height: auto;
 }
+
+.step-one {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.step-one.image img {
+    object-fit: cover;
+}
