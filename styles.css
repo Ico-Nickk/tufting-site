@@ -1,0 +1,53 @@
+body {
+    font-family: "roboto", sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 5px 10px
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header-links {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.header-links ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    gap: 70px;
+    list-style-type: none;
+}
+
+.header-links ul a {
+    text-decoration-line: none;
+    color: #f9faf8;
+}
+
+.hero-page {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.wrapper.hero-page {
+    display: flex;
+}
+
+.hero-info h1 {
+    margin-top: 0;
+}
