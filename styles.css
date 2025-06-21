@@ -178,3 +178,26 @@ header .wrapper {
     border-radius: 25px;
 }
 
+.quote {
+    height: 450px;
+    background-color: #e5e7eb;
+    
+}
+
+.quote .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.quote .author {
+    text-align: end;
+    margin-top: 0;
+}
