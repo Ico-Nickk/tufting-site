@@ -245,3 +245,10 @@ header .wrapper {
 .blue-wrapper h1 {
     margin-bottom: 0;
 }
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 50px 0;
+    color: #f9faf8; 
+}
