@@ -81,15 +81,24 @@ header .wrapper {
     object-fit: contain;
 }
 
-.order-process h1 {
+.order-section h1 {
     text-align: center;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
 
+.order-section {
+    height: 450px;
+}
+
+.order-section .wrapper .steps {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
 .step-one {
-    border: 5px dotted red;
     width: 220px;
     text-align: center;
     font-size: 18px;
@@ -110,7 +119,6 @@ header .wrapper {
 }
 
 .step-two {
-    border: 5px dotted red;
     width: 220px;
     text-align: center;
     font-size: 18px;
@@ -131,7 +139,6 @@ header .wrapper {
 }
 
 .step-three {
-    border: 5px dotted red;
     width: 220px;
     text-align: center;
     font-size: 18px;
@@ -152,7 +159,6 @@ header .wrapper {
 }
 
 .step-four {
-    border: 5px dotted red;
     width: 220px;
     text-align: center;
     font-size: 18px;
