@@ -76,16 +76,99 @@ header .wrapper {
 
 .hero-image img {
     display: block;
-    width: 100%;
+    width: 85%;
     height: auto;
+    object-fit: contain;
+}
+
+.order-process h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .step-one {
-    min-width: 200px;
-    display: flex;
-    flex-direction: column;
+    border: 5px dotted red;
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.step-one.image {
+    width: 200px;
+    height: 200px;
 }
 
 .step-one.image img {
+    width: 100%;
+    height: 100%;
+    display: block;
     object-fit: cover;
+    border: 7px solid #1f2937;
+    border-radius: 25px;
 }
+
+.step-two {
+    border: 5px dotted red;
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.step-two.image {
+    width: 200px;
+    height: 200px;
+}
+
+.step-two.image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border: 7px solid #1f2937;
+    border-radius: 25px;
+}
+
+.step-three {
+    border: 5px dotted red;
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.step-three.image {
+    width: 200px;
+    height: 200px;
+}
+
+.step-three.image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border: 7px solid #1f2937;
+    border-radius: 25px;
+}
+
+.step-four {
+    border: 5px dotted red;
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.step-four.image {
+    width: 200px;
+    height: 200px;
+}
+
+.step-four.image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border: 7px solid #1f2937;
+    border-radius: 25px;
+}
+
